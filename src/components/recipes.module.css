@@ -19,3 +19,14 @@
 .para {
     font-size: small;
 }
+
+.health{
+    font-size: small;
+    color: red;
+    margin-right: 5px ;
+}
+
+.calories {
+    display: flex;
+    justify-content: space-around;
+}

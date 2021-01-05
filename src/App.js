@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import Recipe from './components/Recipe'
 import './App.css';
+require('dotenv').config()
+
 
 
 function App() {
@@ -11,8 +13,8 @@ function App() {
 
 
   const api = {
-    id: "6ebcb240",
-    key: "f125051dc40077ff44c4cfafe2ad5e2d"
+    id: process.env.REACT_APP_API_ID,
+    key: process.env.REACT_APP_API_KEY
   }
 
   useEffect(()=>{
@@ -25,7 +27,6 @@ function App() {
   );
   const data = await response.json();
   setRecipes(data.hits);
-  console.log(data)
 }
 
 const onSearch = (e) => {

@@ -9,7 +9,12 @@ const Recipe = ({ item }) => {
     <>
       <div className={style.recipe} onClick={() => setIsOpen(true)}>
         <h1>{item.recipe.label}</h1>
+        <div className={style.calories}>
+        {
+        (item?.recipe?.calories < 1000) ?  <h4 className={style.health}>Healthy</h4> : null
+        }
         <p>{Math.floor(item.recipe.calories)} calories</p>
+        </div>
         <p>Prepariton: {item.recipe.totalTime} minutes</p>
         <img className={style.image} src={item.recipe.image} alt="img" />
         <p className={style.para}>Click to see the ingredients</p>
