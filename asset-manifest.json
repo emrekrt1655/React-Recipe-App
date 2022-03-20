@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Recipe-App/static/css/main.4eb80098.chunk.css",
+    "main.js": "/React-Recipe-App/static/js/main.6b9d6ead.chunk.js",
+    "main.js.map": "/React-Recipe-App/static/js/main.6b9d6ead.chunk.js.map",
+    "runtime-main.js": "/React-Recipe-App/static/js/runtime-main.1a9a97b8.js",
+    "runtime-main.js.map": "/React-Recipe-App/static/js/runtime-main.1a9a97b8.js.map",
+    "static/js/2.ebc4bd2a.chunk.js": "/React-Recipe-App/static/js/2.ebc4bd2a.chunk.js",
+    "static/js/2.ebc4bd2a.chunk.js.map": "/React-Recipe-App/static/js/2.ebc4bd2a.chunk.js.map",
+    "static/js/3.2b4eda9a.chunk.js": "/React-Recipe-App/static/js/3.2b4eda9a.chunk.js",
+    "static/js/3.2b4eda9a.chunk.js.map": "/React-Recipe-App/static/js/3.2b4eda9a.chunk.js.map",
+    "index.html": "/React-Recipe-App/index.html",
+    "static/css/main.4eb80098.chunk.css.map": "/React-Recipe-App/static/css/main.4eb80098.chunk.css.map",
+    "static/js/2.ebc4bd2a.chunk.js.LICENSE.txt": "/React-Recipe-App/static/js/2.ebc4bd2a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a9a97b8.js",
+    "static/js/2.ebc4bd2a.chunk.js",
+    "static/css/main.4eb80098.chunk.css",
+    "static/js/main.6b9d6ead.chunk.js"
+  ]
+}
